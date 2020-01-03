@@ -4,13 +4,17 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Switch, Route } from 'react-router-dom';
 import HomePage from './components/HomePage';
 import Default from './components/Default';
+import Navbar from './components/Navbar';
+import Rules from './components/Rules';
 
 class App extends Component {
   render() {
     return (
-      <React.Fragment>
+      <React.Fragment>      
+          <Navbar/>
           <Switch>
           <Route path="/" exact component={HomePage} /> 
+          <Route path="/rules" exact component={Rules} /> 
           <Route component={Default} />
           </Switch>
       </React.Fragment>
