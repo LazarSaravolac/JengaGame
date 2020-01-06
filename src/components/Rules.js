@@ -8,7 +8,6 @@ export default class Rules extends Component {
     <div className="py-5">
         <div className="container">
             <div className="row  d-flex flex-column">
-                {/* <h1 className="mx-auto mb-5">Rules</h1> */}
                  <ProductConsumer>
                     {(value) => {
                         return value.rules.map(rule => {
