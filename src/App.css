@@ -87,6 +87,13 @@ body {
   font-size: 30px;
 }
 
+.rule {
+  background: white;
+  padding: 7px;
+  border-radius: 10px;
+  border:2px solid #2a2a72;
+}
+
 .questText{
  font-size: 20px;
  word-break: break-all;

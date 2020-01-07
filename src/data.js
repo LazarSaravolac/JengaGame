@@ -1,6 +1,6 @@
 export const rules = [
   {id:1,
-   ruleTitle:"Prdenjeddddddddddddddddddddddddddddddddddddddddddddssddddddddddddddddddddssddssssssssssssssssss" 
+   ruleTitle:"Pevanje pesama Jelene Karleuse" 
   },
   { id:2,
     ruleTitle:"Lizanje lakta"},

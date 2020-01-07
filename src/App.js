@@ -7,6 +7,7 @@ import Default from './components/Default';
 import Navbar from './components/Navbar';
 import Rules from './components/Rules';
 
+
 class App extends Component {
   render() {
     return (

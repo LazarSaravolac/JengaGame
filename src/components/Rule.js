@@ -11,7 +11,7 @@ export default class Rule extends Component {
            <ProductConsumer>
                     {(value) => {
                         return (
-                            <div className="oneRule mt-3 mx-auto">
+                            <div className="oneRule mt-3 mx-auto rule">
                                 <span className="s">{ruleTitle}</span>
                                 <span>
                                     <Link to="/editRule">
