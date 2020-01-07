@@ -26,8 +26,8 @@ class ProductProvider extends Component {
   }
 
   submitNewRule = () => {
-    const id = parseInt(Math.random() * 1000);
-    let newRule = { ruleTitle: this.state.addNewRuleValue, id: id };
+    const id = parseInt(Math.random() * 1000) + 54;
+    let newRule = {  id: id,ruleTitle: this.state.addNewRuleValue };
     let tempRules=[...this.state.rules];
     tempRules=tempRules.concat(newRule);
     this.setState(() => {
@@ -103,10 +103,11 @@ let N = 54;
 var niz=[];
 
 
-for(let i=0; i < N; i++)
+for(let i=1; i < N; i++)
 niz[i] = i;
-
-const pravila=this.cloneRules();
+console.log(this.state.rules,0);
+const pravila=[...this.state.rules];
+console.log(pravila,1);
 
 for(let i=0; i <pravila.length; i++) {
 let randIndex =  parseInt((Math.random() * N));
