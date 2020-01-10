@@ -6,7 +6,7 @@ import HomePage from './components/HomePage';
 import Default from './components/Default';
 import Navbar from './components/Navbar';
 import Rules from './components/Rules';
-
+import EditRule from './components/EditRule';
 
 class App extends Component {
   render() {
@@ -16,6 +16,7 @@ class App extends Component {
           <Switch>
           <Route path="/" exact component={HomePage} /> 
           <Route path="/rules" exact component={Rules} /> 
+          <Route path="/editRule" exact component={EditRule} />
           <Route component={Default} />
           </Switch>
       </React.Fragment>
